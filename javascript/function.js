@@ -165,7 +165,6 @@ const calculate = (command, a, b) => {
     case 'remainder':
       return a % b;
     default:
-      return throw Error();
       throw Error('unknown command');
   }
 };
